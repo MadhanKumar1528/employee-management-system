@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+  <title>Employee Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Title -->
+    <h1 class="glow-title">Employee Management System</h1>
+
+    <!-- Add Employee Form -->
+    <div class="form-section">
+      <input id="name" placeholder="Name">
+      <input id="role" placeholder="Role">
+      <input id="salary" placeholder="Salary">
+      <button class="btn add-btn" onclick="addEmployee()">➕ Add Employee</button>
+    </div>
+
+    <!-- Employee List -->
+    <h2>Employee List</h2>
+    <table border="1" id="employeeTable">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Role</th>
+          <th>Salary</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <!-- Update Form -->
+    <div id="updateForm" style="display:none; margin-block-start:20px;">
+      <h2>Update Employee</h2>
+      <input id="updateId" type="hidden">
+      <input id="updateName" placeholder="Name">
+      <input id="updateRole" placeholder="Role">
+      <input id="updateSalary" placeholder="Salary">
+      <button class="btn" onclick="saveUpdate()">💾 Save</button>
+      <button class="btn" onclick="cancelUpdate()">❌ Cancel</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
