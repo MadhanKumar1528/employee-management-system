@@ -84,5 +84,3 @@ This project is licensed under the MIT License.
 
 ---
 
-👉 Do you want me to also generate a **SQL file** (`employees.sql`) so that you can directly import it into MySQL instead of manually creating tables?
-
