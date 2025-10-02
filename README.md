@@ -71,7 +71,7 @@ employee-management-system/
 
 📸 Screenshots
 
-(Add screenshots of your project here if possible)
+![image alt](https://github.com/MadhanKumar1528/employee-management-system/blob/55a51252db229fc494f7dd717ed28ba79ebb391f/Screenshot%20(1).png)
 
 🤝 Contributing
 
