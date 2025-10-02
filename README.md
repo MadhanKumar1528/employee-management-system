@@ -70,7 +70,7 @@ employee-management-system/
 │── package.json      # Dependencies
 
 📸 Screenshots
- 
+
 (Add screenshots of your project here if possible)
 
 🤝 Contributing
