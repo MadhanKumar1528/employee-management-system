@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff176; /* Yellow background */
+  text-align: center;
+  padding: 20px;
+}
+
+/* Title with subtle glow */
+.glow-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff1744;
+  text-shadow: 0 0 5px #ff1744;
+  margin-block-end: 20px;
+}
+
+/* Inputs */
+input {
+  padding: 8px;
+  margin: 5px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+
+/* Buttons */
+.btn {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+/* Add Button (green) with glow on hover/touch */
+.add-btn {
+  background-color: #4caf50;
+  color: white;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+.add-btn:hover, .add-btn:active {
+  box-shadow: 0 0 15px rgba(76, 175, 80, 1);
+  transform: scale(1.05);
+}
+
+/* Update Button (blue) */
+.update-btn {
+  background-color: #2196f3;
+  color: white;
+  box-shadow: 0 0 5px rgba(33, 150, 243, 0.5);
+}
+
+.update-btn:hover, .update-btn:active {
+  box-shadow: 0 0 15px rgba(33, 150, 243, 0.8);
+  transform: scale(1.05);
+}
+
+/* Delete Button (red) */
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+  box-shadow: 0 0 5px rgba(244, 67, 54, 0.5);
+}
+
+.delete-btn:hover, .delete-btn:active {
+  box-shadow: 0 0 15px rgba(244, 67, 54, 0.8);
+  transform: scale(1.05);
+}
+
+/* Table styling */
+table {
+  inline-size: 100%;
+  border-collapse: collapse;
+  margin-block-start: 20px;
+}
+
+th, td {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #000;
+}
+
+th {
+  background-color: #f57f17;
+  color: white;
+}
+
+
